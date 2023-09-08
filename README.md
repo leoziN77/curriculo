@@ -1,1 +1,1 @@
-# curriculo
+Projeto web do primeiro semestre desenvolvido juntamente com meus colegas Lucas e Carol, criamos um layout em Html e Css utilizando "form-action" sem a possibilidade do Java Script, com a proposta de expor nossos curriculos.
