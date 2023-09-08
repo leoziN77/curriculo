@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+
+.section1 {
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 28%;
+  height: 100vh;
+  padding: 40px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 45px 45px;
+}
+
+.section1 h1 {
+  text-align: left;
+}
+
+.section1 p {
+  text-align: left;
+  margin-left: 0; 
+}
+
+.section1::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+.section1::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.section1:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.439); 
+}
+
+.section2 {
+  background-color: #ffffff;
+  max-width: 72%;
+  height: 100vh;
+  padding: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.section2::before {
+  content: "";
+  position: sticky; 
+  top: 0; 
+  display: block; 
+  height: 1px; 
+  background-color: transparent; 
+  z-index: 1; 
+}
+
+.section2::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+.section2::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+}
+
+.section2:hover::-webkit-scrollbar-thumb {
+  background-color: #00000070; 
+}
+
+.imagem img {
+  border-radius: 50%;
+  width: 25vw;
+  max-width: 230px;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+h1 {
+  color: white;
+  font-size: 2vw;
+  margin-bottom: 1.5vh;
+  max-width: 100%;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4vh;
+  font-size: 1.2vw;
+}
+
+.icon {
+  margin-right: 1vw;
+  color: white;
+}
+
+p {
+  color: white;
+  margin-bottom: 0.4vh;
+}
+
+.contatos {
+  margin-bottom: 2.5vh;
+}
+
+.info {
+  margin-top: -4.2vw;
+}
+
+.conhecimento {
+  margin-bottom: 2.5vh;
+}
+
+.habilidades {
+  margin-bottom: 4vh;
+}
+
+@media (max-width: 100%) {
+  body {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .section1,
+  .section2 {
+    max-width: 100%;
+  }
+
+  .section1 {
+    height: auto;
+    padding: 3vh;
+  }
+
+  .imagem img {
+    width: 40vw;
+    max-width: 250px;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  .info-item {
+    font-size: 2.4vw;
+  }
+}
+
+.carreira h1 {
+  color: #000000;
+  margin-bottom: 3vh;
+  font-size: 1.6vw;
+}
+
+.carreira p {
+  color: #000000;
+  margin-bottom: 1vh;
+  font-size: 1vw;
+}
+
+.titulo {
+  margin-bottom: -5vh;
+  margin-top: -90px; 
+}
+
+
+.titulo h1 {
+  color: #000000;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5vh;
+}
+
+.titulo p {
+  color: black;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.cabeçalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+.sobre {
+  margin-bottom: 3vh;
+}
+
+.objetivo {
+  margin-bottom: 3vh;
+}
+
+.educa {
+  margin-bottom: 3vh;
+}
+
+.cabeçalho .titulo {
+  margin-bottom: -5vh;
+}
+
+.experiencia {
+  margin-bottom: 1vh;
+}
+
+.projetos h1 {
+  margin-bottom: 3vh;
+}
+
+.projetos{
+  margin-bottom: 3vh;
+}

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .section2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    max-width: 100%;
+    position: relative;   
+    height: 100%;
+    flex: 1;
+  }
+
+  .section1 {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;      
+    max-width: 100%;
+    position: relative;
+    height: 100%;
+    border-right: none;
+    width: 55vh;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .imagem img {
+    border-radius: 50%;
+    width: 25vw;
+    max-width: 230px;
+  }
+
+  .imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+  }
+
+  h1 {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 1.5vh;
+    max-width: 100%;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4vh;
+    font-size: 1.2vw;
+  }
+
+  .icon {
+    margin-right: 1vw;
+    color: white;
+  }
+
+  p {
+    color: white;
+    margin-bottom: 0.4vh;
+  }
+
+  .contatos {
+    margin-bottom: 2.5vh;
+  }
+
+  .info {
+    margin-top: -4.2vw;
+  }
+
+  .conhecimento {
+    margin-bottom: 2.5vh;
+  }
+
+  .habilidades{
+    margin-bottom: 4vh;
+  }
+
+  @media (max-width: 100%) {
+    body {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .section1,
+    .section2 {
+      max-width: 100%;
+    }
+
+    .section1 {
+      height: auto;
+      padding: 3vh;
+    }
+
+    .imagem img {
+      width: 40vw;
+      max-width: 250px;
+    }
+
+    h1 {
+      font-size: 4vw;
+    }
+
+    .info-item {
+      font-size: 2.4vw;
+    }
+  }
+
+  .carreira h1 {
+    color: #000000;
+    margin-bottom: 2.5vh;
+    font-size: 2vw;
+  }
+
+  .carreira p {
+    color: #000000;
+    margin-bottom: 0.4vh;
+    font-size: 1.2vw;
+  }
+
+  .titulo h1 {
+    color: #000000;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5vh;
+  }
+
+  .titulo p {
+    color: black;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cabeçalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+  }
+
+  .sobre {
+    margin-bottom: 2.5vh;
+  }
+
+  .objetivo {
+    margin-bottom: 2.5vh;
+  }
+
+  .educa {
+    margin-bottom: 2.5vh;
+  }
+
+  .cabeçalho .titulo {
+    margin-bottom: -5vh;
+  }
